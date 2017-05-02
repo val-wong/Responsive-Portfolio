@@ -226,3 +226,80 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+
+/*media query*/
+
+@media screen and (max-width: 640px) {
+	#logo {
+		float: left;
+		width: 100%;
+	}
+
+	/*nav {
+		width: 100%;
+		float: left;
+		text-align: center;
+	}*/
+
+	header {
+		position: static;
+		width: 100%;
+	}
+
+
+	nav a {
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 70px;
+	padding-right: 60px;
+	line-height: 18px;
+	}
+
+	.main-section {
+	background: #fff;
+	padding: 30px;
+	/*margin: 20px 20px 20px 20px;*/
+	/*margin: 0 0 40px 0;*/
+	margin-top: 35px;
+	width: 100%;
+	max-width: 650px;
+	/*float: left;*/
+	border: 1px solid #ddd;
+	}
+
+	.sidebar {
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	max-width: 100%;
+	float: left;
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	}	
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	.sidebar {
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	max-width: 100%;
+	float: left;
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	}
+
+}
+
+
+@media screen and (max-width: 980px) {
+	
+}
